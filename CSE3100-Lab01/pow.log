@@ -1,0 +1,39 @@
+Test Run By jrf12002 on Tue Oct  3 11:47:33 2017
+Native configuration is x86_64-unknown-linux-gnu
+
+		=== test/pow tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ./config/unix.exp as tool-and-target-specific interface file.
+Running ./test/pow/test-pow.exp ...
+spawn ./pow
+a: 2
+b: 61
+(2)^(61)=2305843009213693952
+PASS: pow is (2305843009213693952), correct
+spawn ./pow
+a: 4
+b: 0
+(4)^(0)=1
+PASS: pow is (1), correct
+spawn ./pow
+a: 3
+b: 3
+(3)^(3)=27
+PASS: pow is (27), correct
+spawn ./pow
+a: 10
+b: 7
+(10)^(7)=10000000
+PASS: pow is (10000000), correct
+testcase ./test/pow/test-pow.exp completed in 0 seconds
+
+		=== pow Summary ===
+
+# of expected passes		4
+runtest completed at Tue Oct  3 11:47:33 2017

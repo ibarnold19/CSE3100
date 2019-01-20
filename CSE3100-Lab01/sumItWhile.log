@@ -1,0 +1,35 @@
+Test Run By jrf12002 on Tue Oct  3 11:47:33 2017
+Native configuration is x86_64-unknown-linux-gnu
+
+		=== test/sumItWhile tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+Using ./config/unix.exp as tool-and-target-specific interface file.
+Running ./test/sumItWhile/test-sumItWhile.exp ...
+spawn ./sumItWhile
+n:10
+sum: 165 
+PASS: sum worked (165)
+spawn ./sumItWhile
+n:-10
+sum: -165 
+PASS: sum worked (-165)
+spawn ./sumItWhile
+n:500
+sum: 375750 
+PASS: sum worked (375750)
+spawn ./sumItWhile
+n:-500
+sum: -375750 
+PASS: sum worked (-375750)
+testcase ./test/sumItWhile/test-sumItWhile.exp completed in 0 seconds
+
+		=== sumItWhile Summary ===
+
+# of expected passes		4
+runtest completed at Tue Oct  3 11:47:33 2017
