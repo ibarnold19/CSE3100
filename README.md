@@ -1,2 +1,2 @@
 # CSE3100
-UCONN CSE 3100 - Systems Programming
+CSE 3100 - Systems Programming
