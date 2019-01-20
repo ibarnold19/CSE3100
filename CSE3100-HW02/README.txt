@@ -1,0 +1,1 @@
+I kept getting an error regarding the readPoly function not being able to be accessed even though it was included in the necessary files. It gave me an error at compile time, but my programs worked just fine without it...no idea what to do about it and not enough time to figure it out before submitting. If you change my code at all and recompile, you'll see what I mean.
